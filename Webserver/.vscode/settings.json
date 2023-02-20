@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "numeric": "cpp",
+        "sstream": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "streambuf": "cpp"
+    }
+}
