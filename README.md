@@ -62,7 +62,7 @@ HTTP请求报文由**请求行**(request line)、**请求头部**(header)、**�
 
 - **请求数据**也叫主体，可以添加任意的其他数据。
 
-```http
+```html
 POST / HTTP1.1
 Host:www.wrox.com
 User-Agent:Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)
@@ -82,7 +82,7 @@ HTTP响应由四个部分组成，分别是：**状态行**、**消息报头**�
 - 空行，消息报头后面的空行是必须的。
 - 响应正文，服务器返回给客户端的文本信息。空行后面的html部分为响应正文。
 
-```http
+```html
  HTTP/1.1 200 OK
  Date: Fri, 22 May 2009 06:07:21 GMT
  Content-Type: text/html; charset=UTF-8
